@@ -3,9 +3,9 @@ const GrocerInput=({handleAdd})=>{
     const [grocery,setGrocery]=React.useState('');
 
     return (
-        <div>y} onChange={(event)=>setGrocery(event.target.value)}/>
-            <button onClick={()=>{handleAdd(g
-            <input type="text" value={grocerrocery); setGrocery("");}}>Add</button>
+        <div>
+            <input type="text" value={grocery} onChange={(event)=>setGrocery(event.target.value)}/>
+            <button onClick={()=>{handleAdd(grocery); setGrocery("");}}>Add</button>
         </div>
     )
 }
