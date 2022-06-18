@@ -13,6 +13,8 @@ const Grocery=()=>{
             id: uuid()
         }
         setData([...data, groceryItem])
+
+        grocery="";
     }
 
     const handleDelete=(id)=>{

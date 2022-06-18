@@ -1,0 +1,22 @@
+{
+  "grocery": [
+    {
+      "grocery": "milk",
+      "id": "3a54969d-7de8-4c07-b316-7f0ec3bc4bf0"
+    },
+    {
+      "grocery": "juice",
+      "id": "d32586f9-6025-4c61-aa66-7f31e09eb7b5"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
