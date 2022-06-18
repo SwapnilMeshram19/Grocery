@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.grocery-item{
+  
+}
+
+.grocery-item>h1{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.grocery-item>button{
+  margin: 20px;
+  display: inline-block;
+}
